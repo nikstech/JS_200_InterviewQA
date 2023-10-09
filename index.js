@@ -196,3 +196,23 @@
 // else{
 //     console.log("Ana not");
 // }
+
+
+// Q: 17 print 1 - 10 with loop by giving array list
+// const array = [1,2,3,4,5,6,7,8,9,10]
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i]);
+// } 
+
+// Q: 17 print 1 - 10 without giving array list and loop
+
+const counter = (n) => {
+    if(n===0){
+        return 'end'
+    }
+    console.log(n);
+    counter(n-1)
+}
+console.log("St");
+counter(10)
+console.log("End");
