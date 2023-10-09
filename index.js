@@ -198,7 +198,7 @@
 // }
 
 
-// Q: 17 print 1 - 10 with loop by giving array list
+// Q: 17 print 1 - 10 with a loop by giving array list
 // const array = [1,2,3,4,5,6,7,8,9,10]
 // for (let i = 0; i < array.length; i++) {
 //     console.log(array[i]);
@@ -206,13 +206,37 @@
 
 // Q: 17 print 1 - 10 without giving array list and loop
 
-const counter = (n) => {
-    if(n===0){
-        return 'end'
-    }
-    console.log(n);
-    counter(n-1)
-}
-console.log("St");
-counter(10)
-console.log("End");
+// const counter = (n) => {
+//     if(n===0){
+//         return 'end'
+//     }
+//     console.log(n);
+//     counter(n-1)
+// }
+// console.log("St");
+// counter(10)
+// console.log("End");
+
+/*2 Swap the values by destructuring */
+
+/* let a = 1;
+let b = 2;
+
+[a,b] = [b,a];
+
+console.log(a)
+console.log(b)
+ */
+ 
+ /*3 Swap the values using 3rd value */
+
+/* let a = 1;
+let b = 2;
+let c;
+
+c=a;
+a=b;
+b=c;
+
+console.log(a)
+console.log(b) */
